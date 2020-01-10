@@ -1,0 +1,168 @@
+@font-face{
+  font-family: mafw;
+  src: url(mafw.ttf);
+}
+
+
+body{
+  background: #FFFCCC;
+  font-family: mafw;
+  margin: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px; */
+  font-size: calc(10px + (15 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.navbar {
+  background: #FFFCCC;
+}
+
+.navbar .navbar-brand:hover {
+  color: #e95c4b !important;
+}
+
+.nav-link {
+  font-size: calc(15px + (15 - 15) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #e95c4b;
+}
+
+.dropdown-menu{
+    background-color: #FFFCCC;
+    border: none;
+}
+
+.dropdown-item{
+  background-color: #FFFCCC;
+}
+
+.jumbotron{
+
+  background: #fefbf4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 10px solid #e95c4b;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  font-family: mafw;
+
+}
+
+#pictures{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 100%;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 0;
+  padding: 0;
+
+
+}
+
+h1{
+  text-align: center;
+  font-size: 3.5em;
+  color: #e95c4b;
+}
+
+h2{
+  text-align: center;
+  font-size: 2.5em;
+  color: #57D750;
+}
+
+h3{
+  text-align: center;
+  font-size: 2.5em;
+  color: #e95c4b;
+}
+
+h6{
+  text-align: center;
+  font-size: 1.5em
+}
+
+p{
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+#Windmill{
+  font-style: italic;
+}
+
+.my-3{
+  border-color: #e95c4b;
+}
+
+#opening_hours{
+  color: black;
+}
+
+#days_open {
+  color: #e95c4b;
+}
+
+#product{
+  color: black;
+}
+
+#bulk {
+  align-items: center;
+}
+
+#item{
+  /* font-weight: bold; */
+  /* text-align: center; */
+  font-size: 2.0em;
+  color: #e95c4b;
+}
+
+#slogan{
+  text-align: center;
+  font-size: 2.5em;
+  color: #e95c4b;
+}
+
+#description{
+  /* text-align: center; */
+  font-style: italic;
+}
+
+#phoneNumber{
+  color: #e95c4b;
+}
+
+.form-control{
+  background: #fefbf4;
+}
+
+.form{
+  text-align: center;
+}
+
+.custom-select{
+  background: #fefbf4;
+}
+
+.btn-primary {
+  background-color: #e95c4b;
+  border: 0;
+}
+
+.btn:hover{
+  background-color: #57D750;
+}
+
+#facebookLogo{
+  height: 50px;
+  width: auto;
+}
