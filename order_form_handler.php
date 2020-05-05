@@ -1,5 +1,5 @@
 <?php
-  $to_email = 'bigred.83@hotmail.com';
+  $to_email = 'maggielousbite@gmail.com';
   $user = $_REQUEST['name'];
   $email = $_REQUEST['email'];
   $comment = $_REQUEST['message'];
